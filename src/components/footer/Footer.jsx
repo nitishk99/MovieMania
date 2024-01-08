@@ -9,6 +9,7 @@ import {
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -22,25 +23,32 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    This website is developed and maintained By Nitish Kumar
+                    <br />
+                    Connect with me on social media
+
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
-                        <FaFacebookF />
+                        <a href="https://www.facebook.com/01nitishk?mibextid=ZbWKwL">
+                            <FaFacebookF />
+                        </a>
+                    </span>
+
+                    <span className="icon">
+                        <a href="https://www.instagram.com/nitishksingh.__?utm_source=qr&igsh=ZXpzdHpqY3VlMzRx">
+                            <FaInstagram />
+                        </a>
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                        <a href="https://x.com/nitishkr____?t=EfQ4LYUC-NZdisN5nXBZQQ&s=08">
+                            <FaTwitter />
+                        </a>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/nitish-kumar-03b25621b/">
+                            <FaLinkedin />
+                        </a>
                     </span>
                 </div>
             </ContentWrapper>
